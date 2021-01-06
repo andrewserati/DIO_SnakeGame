@@ -5,8 +5,36 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('../img/87577.jpg');
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+#texto {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#texto p {
+    color: white;
+}
+
+#texto p a {
+    text-decoration: none;
+    color: turquoise;
 }
 
 canvas {
-    border: 1px black solid;
+    border: 10px rgb(18, 110, 197) solid;
 }
